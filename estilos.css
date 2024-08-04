@@ -1,0 +1,72 @@
+*{
+    font-family: "fredoka one";
+
+}
+
+
+
+
+body{
+    background-image: url(/Imagenes/Fondo\ virtual\ para\ Zoom\ fotografía\ rosa\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mybutton{
+    background: none;
+    border: none;
+    background: EB6C50;
+    color: coral;
+    font-size: 1rem;
+    padding: 15px;
+    border-radius: 40px;
+
+}
+
+.mybutton:hover{
+    background-color: blueviolet;
+    color: brown;
+
+}
+
+.mytittle{
+    font-size: 3rem;
+    color: rgb(109, 6, 109);
+    margin-bottom: 50px;
+     font-family: "pacifico", cursive;
+}
+    p{
+        font-size: 1rem;
+        color: rgb(115, 48, 177);
+    }
+
+    .mytittlecard{
+       font-size: 1.8rem;
+       color: blueviolet; 
+    font-family: "pacifico", cursive;
+    }
+
+
+    @media(max-width:876px){
+     .mytittle{
+        font-size: 1.5rem;
+        margin-bottom: 5px;
+     }
+
+     .contentland{
+        /* From https://css.glass */
+          background: rgba(255, 255, 255, 0.15);
+          border-radius: 16px;
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(6.1px);
+          -webkit-backdrop-filter: blur(6.1px);
+           border: 1px solid rgba(255, 255, 255, 0.3);
+           padding: 20px;
+     }
+    }
+
+.card-tex{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
